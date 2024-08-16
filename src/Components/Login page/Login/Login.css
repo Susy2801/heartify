@@ -1,0 +1,16 @@
+.login__container {
+  width: 100%;
+  height: 100vh;
+  background-color: #ff819f;
+}
+
+.form-label {
+  display: block; /* Đảm bảo label là một block-level element */
+  text-align: left; /* Căn trái text trong label */
+  margin-bottom: 0.5rem; /* Tạo khoảng cách giữa label và input */
+}
+
+.form-control {
+  display: block;
+  width: 100%; /* Đảm bảo input chiếm toàn bộ chiều ngang container */
+}
